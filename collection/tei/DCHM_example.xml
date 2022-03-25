@@ -6,9 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>DCHM Template</title>
-            <author corresp="#WD">Wout Dillen</author>
-            <principal>Wout Dillen</principal>
+            <title>Hälsingerunor</title>
+            <author corresp="#EH">Edit Henriksen</author>
+            <principal>Edit Henriksen</principal>
          </titleStmt>
          <publicationStmt>
             <publisher>University of Borås</publisher>
@@ -22,7 +22,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-               <p>A post-it with a simple example phrase on it</p>
+               <p> bildtext</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -36,7 +36,7 @@
          <figure>
             <label>Post-It 01</label>
             <figDesc>
-               A photograph of a post-it with a simple example phrase.
+               Bildtext
             </figDesc>
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
