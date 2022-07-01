@@ -7,12 +7,40 @@
       <fileDesc>
          <titleStmt>
             <title>Hälsingerunor</title>
-            <author corresp="#EH">Edit Henriksen</author>
+            <author>Ovanåkers Hembygdsförening <note type="date">1921</note></author>
+            <editor>Per Albin Norin</editor>
             <principal>Edit Henriksen</principal>
+            <principal>Emma Olsson Grahn</principal>
+            <meeting>Encoded based on the Text Encoding Initiative Guidelines</meeting>
+            <respStmt>
+               <resp>Transcribed for the project work exam</resp>
+               <persName>
+                  <roleName>Students</roleName>
+                  <persName>Edit Henriksen</persName>
+                  <persName>Emma Olsson Grahn</persName>
+                  <orgName>University of Borås</orgName>
+                  <unit>Library and Information Science</unit>
+                  <abbr>Digitising Cultural Heritage Material course <code>32LDK1 B12V2 VT2022</code></abbr>
+                  <date when="2022-07-01">1 Juli, 2022</date>
+               </persName>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition>First edition???</edition>
+            <respStmt>
+               <resp>Printed by</resp>
+               <orgName>Tryckeriaktiebolaget Ljusnan</orgName>
+               <note type="date">1921</note>
+               <note type="adress">Bollnäs</note>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="pages" quantity="18">18 sidor av scannat källmaterial</measure>
+         </extent>
          <publicationStmt>
-            <publisher>University of Borås</publisher>
-            <date>March 2022</date>
+            <publisher>Ovanåkers Hembygdsförening</publisher>
+            <date when="1921">1921</date>
+            <pubPlace>Edsbyn</pubPlace>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
@@ -22,7 +50,57 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-               <p> bildtext</p>
+            <biblStruct>
+               <analytic xml:lang="sv">
+                  <author>Per Albin Norin</author>
+                  <title>Anmälan</title>
+               </analytic>
+               <monogr xml:lang="sv">
+                  <title>Hälsingerunor</title>
+                  <imprint>                   
+                     <publisher>Ovanåkers Hembygdsförening</publisher>
+                     <pubPlace>Edsbyn</pubPlace>
+                     <date when="1921">1921</date>
+                  </imprint>
+                  <biblScope unit="page">1-2</biblScope>
+                  <extent>4 volymer</extent>
+                  <biblScope unit="part">1</biblScope>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <analytic xml:lang="sv">
+                  <author>okänt</author>
+                  <title>Gamla Helsingegårdar</title>
+               </analytic>
+               <monogr xml:lang="sv">
+                  <title>Hälsingerunor</title>
+                  <imprint>                   
+                     <publisher>Ovanåkers Hembygdsförening</publisher>
+                     <pubPlace>Edsbyn</pubPlace>
+                     <date when="1921">1921</date>
+                  </imprint>
+                  <biblScope unit="page">2</biblScope>
+                  <extent>4 volymer</extent>
+                  <biblScope unit="part">1</biblScope>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <analytic xml:lang="sv">
+                  <author>Per Albin Norin</author>
+                  <title>Något om de gamla dräkterna</title>
+               </analytic>
+               <monogr xml:lang="sv">
+                  <title>Hälsingerunor</title>
+                  <imprint>                   
+                     <publisher>Ovanåkers Hembygdsförening</publisher>
+                     <pubPlace>Edsbyn</pubPlace>
+                     <date when="1921">1921</date>
+                  </imprint>
+                  <biblScope unit="page">3</biblScope>
+                  <extent>4 volymer</extent>
+                  <biblScope unit="part">1</biblScope>
+               </monogr>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
