@@ -7,27 +7,66 @@
       <fileDesc>
          <titleStmt>
             <title>Hälsingerunor</title>
-            <author corresp="#EH">Edit Henriksen</author>
-            <principal>Edit Henriksen</principal>
+            <author>Ovanåkers hembygdsförening</author>
+            <principal>Edit Henriksen och Emma Olsson Grahn</principal>
+            <respStmt>
+               <resp>Teckenkodning</resp>
+               <name>Edit Henriksen och Emma Olsson Grahn</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>University of Borås</publisher>
-            <date>March 2022</date>
+            <publisher>Edit Henriksen och Emma Olsson Grahn</publisher>
+            <date>Juni 2022</date>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>
-                     Transcription distributed under a CC-BY-SA 4.0 license.
-                  </p>
-               </licence>
+               <p> Enligt svensk lag <title>Lag (1960:729)om upphovsrätt till litterära och
+                     konstnärliga verk</title> är verket Public domain</p>
             </availability>
          </publicationStmt>
+         <notesStmt>
+            <note> </note>
+         </notesStmt>
          <sourceDesc>
-               <p> bildtext</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Stockholm</settlement>
+                  <institution>Nordiska museet</institution>
+               </msIdentifier>
+            </msDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Helsingerunor : hembygdsorgan för helsingarne</title>
+                  <author>Ovanåkers hembygdsförening</author>
+               </analytic>
+               <monogr>
+                  <title>Helsingerunor : hembygdsorgan för helsingarne</title>
+                  <ref target="https://libris.kb.se/cvn8x40p5pb6xd7#it">LIBRIS</ref>
+                  <idno>LIBRIS-ID:470991</idno>
+                  <editor>Ovanåkers hembygdsförening</editor>
+                  <imprint>
+                     <publisher>Tryckeriaktibolaget Ljusnan</publisher>
+                     <pubPlace>Bollnäs</pubPlace>
+                     <!--         Libris katalogisering stämmer inte med det som står i källmaterialet. I Libris står att utgivningen 1921 och 1923 skedde i Edsbyn men i materialet står Bollnäs -->
+                     <date from="1921" to="1924">1921-1924</date>
+                     <!-- Måste räkna sidantal med annonser-->
+                     <biblScope unit="page" n="86"> Åttiosex sidor </biblScope>
+                  </imprint>
+               </monogr>
+               <relatedItem>
+                  <bibl>Utkom även i faksimil 1984: Helsingerunor</bibl>
+               </relatedItem>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+      </encodingDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout
+               Dillen.</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>
@@ -35,9 +74,7 @@
       <surface xml:id="postit01">
          <figure>
             <label>Post-It 01</label>
-            <figDesc>
-               Bildtext
-            </figDesc>
+            <figDesc> Bildtext </figDesc>
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
          </figure>
@@ -45,14 +82,12 @@
    </facsimile>
    <text>
       <body>
-            <pb facs="#postit01"/>
-            <head>
-               <hi rend="u">DCHM Template</hi>
-            </head>
-            <p>
-               A <del>silly</del> <add>small</add> example
-               <lb/>text.
-            </p>
+         <pb facs="#postit01"/>
+         <head>
+            <hi rend="u">DCHM Template</hi>
+         </head>
+         <p> A <del>silly</del>
+            <add>small</add> example <lb/>text. </p>
       </body>
    </text>
 </TEI>
