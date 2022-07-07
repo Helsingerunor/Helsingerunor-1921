@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: diplomatic view
+                    Helsingerunor 1921.1: diplomatic view
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -76,7 +76,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2022 Edit Henriksen och Emma Ohlson Grahn.
                       </div>
                     </div>
                 </div>
