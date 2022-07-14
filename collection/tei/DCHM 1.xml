@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hälsingerunor</title>
+            <author>Ovanåkers Hembygdsförening <note type="date">1921</note></author>
+            <editor>Per Albin Norin</editor>
+            <principal>Edit Henriksen</principal>
+            <principal>Emma Olsson Grahn</principal>
+            <meeting>Encoded based on the Text Encoding Initiative Guidelines</meeting>
+            <respStmt>
+               <resp>Transcribed for the project work exam</resp>
+               <persName>
+                  <roleName>Students</roleName>
+                  <persName>Edit Henriksen</persName>
+                  <persName>Emma Olsson Grahn</persName>
+                  <orgName>University of Borås</orgName>
+                  <unit>Library and Information Science</unit>
+                  <abbr>Digitising Cultural Heritage Material course <code>32LDK1 B12V2 VT2022</code></abbr>
+                  <date when="2022-07-01">1 Juli, 2022</date>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First edition???</edition>
+            <respStmt>
+               <resp>Printed by</resp>
+               <orgName>Tryckeriaktiebolaget Ljusnan</orgName>
+               <note type="date">1921</note>
+               <note type="adress">Bollnäs</note>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="pages" quantity="18">18 sidor av scannat källmaterial</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>Ovanåkers Hembygdsförening</publisher>
+            <date when="1921">1921</date>
+            <pubPlace>Edsbyn</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:lang="sv">
+                  <author>Per Albin Norin</author>
+                  <title>Anmälan</title>
+               </analytic>
+               <monogr xml:lang="sv">
+                  <title>Hälsingerunor</title>
+                  <imprint>                   
+                     <publisher>Ovanåkers Hembygdsförening</publisher>
+                     <pubPlace>Edsbyn</pubPlace>
+                     <date when="1921">1921</date>
+                  </imprint>
+                  <biblScope unit="page">1-2</biblScope>
+                  <extent>4 volymer</extent>
+                  <biblScope unit="part">1</biblScope>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <analytic xml:lang="sv">
+                  <author>okänt</author>
+                  <title>Gamla Helsingegårdar</title>
+               </analytic>
+               <monogr xml:lang="sv">
+                  <title>Hälsingerunor</title>
+                  <imprint>                   
+                     <publisher>Ovanåkers Hembygdsförening</publisher>
+                     <pubPlace>Edsbyn</pubPlace>
+                     <date when="1921">1921</date>
+                  </imprint>
+                  <biblScope unit="page">2</biblScope>
+                  <extent>4 volymer</extent>
+                  <biblScope unit="part">1</biblScope>
+               </monogr>
+            </biblStruct>
+            <biblStruct>
+               <analytic xml:lang="sv">
+                  <author>Per Albin Norin</author>
+                  <title>Något om de gamla dräkterna</title>
+               </analytic>
+               <monogr xml:lang="sv">
+                  <title>Hälsingerunor</title>
+                  <imprint>                   
+                     <publisher>Ovanåkers Hembygdsförening</publisher>
+                     <pubPlace>Edsbyn</pubPlace>
+                     <date when="1921">1921</date>
+                  </imprint>
+                  <biblScope unit="page">3</biblScope>
+                  <extent>4 volymer</extent>
+                  <biblScope unit="part">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="postit01">
+         <figure>
+            <label>Post-It 01</label>
+            <figDesc>
+               Bildtext
+            </figDesc>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            <pb facs="#postit01"/>
+            <head>
+               <hi rend="u">DCHM Template</hi>
+            </head>
+            <p>
+               A <del>silly</del> <add>small</add> example
+               <lb/>text.
+            </p>
+      </body>
+   </text>
+</TEI>
