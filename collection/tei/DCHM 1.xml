@@ -35,7 +35,7 @@
             </respStmt>
          </editionStmt>
          <extent>
-            <measure unit="pages" quantity="18">18 sidor av scannat källmaterial</measure>
+            <measure unit="pages" quantity="20">20 sidor av scannat källmaterial</measure>
          </extent>
          <publicationStmt>
             <publisher>Ovanåkers Hembygdsförening</publisher>
@@ -51,52 +51,16 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
-               <analytic xml:lang="sv">
-                  <author>Per Albin Norin</author>
-                  <title>Anmälan</title>
-               </analytic>
                <monogr xml:lang="sv">
                   <title>Hälsingerunor</title>
+                  <author>Ovanåkers Hembygdsförening</author>
+                  <editor>Norin, Per Albin</editor>
                   <imprint>                   
                      <publisher>Ovanåkers Hembygdsförening</publisher>
                      <pubPlace>Edsbyn</pubPlace>
                      <date when="1921">1921</date>
                   </imprint>
-                  <biblScope unit="page">1-2</biblScope>
-                  <extent>4 volymer</extent>
-                  <biblScope unit="part">1</biblScope>
-               </monogr>
-            </biblStruct>
-            <biblStruct>
-               <analytic xml:lang="sv">
-                  <author>okänt</author>
-                  <title>Gamla Helsingegårdar</title>
-               </analytic>
-               <monogr xml:lang="sv">
-                  <title>Hälsingerunor</title>
-                  <imprint>                   
-                     <publisher>Ovanåkers Hembygdsförening</publisher>
-                     <pubPlace>Edsbyn</pubPlace>
-                     <date when="1921">1921</date>
-                  </imprint>
-                  <biblScope unit="page">2</biblScope>
-                  <extent>4 volymer</extent>
-                  <biblScope unit="part">1</biblScope>
-               </monogr>
-            </biblStruct>
-            <biblStruct>
-               <analytic xml:lang="sv">
-                  <author>Per Albin Norin</author>
-                  <title>Något om de gamla dräkterna</title>
-               </analytic>
-               <monogr xml:lang="sv">
-                  <title>Hälsingerunor</title>
-                  <imprint>                   
-                     <publisher>Ovanåkers Hembygdsförening</publisher>
-                     <pubPlace>Edsbyn</pubPlace>
-                     <date when="1921">1921</date>
-                  </imprint>
-                  <biblScope unit="page">3</biblScope>
+                  <biblScope unit="page">1-20</biblScope>
                   <extent>4 volymer</extent>
                   <biblScope unit="part">1</biblScope>
                </monogr>
